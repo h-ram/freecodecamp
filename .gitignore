@@ -52,8 +52,8 @@ out/
 .DS_Store
 
 # Logs
-logs/
-*.log
+# logs/
+# *.log
 
 # Testing & Coverage
 coverage/
