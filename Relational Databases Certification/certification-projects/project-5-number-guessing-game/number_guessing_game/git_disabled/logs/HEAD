@@ -1,0 +1,12 @@
+0000000000000000000000000000000000000000 650fe9a7a24eba7e93049eba9a72a2cc947f5cc3 ram <ram.h.devs@gmail.com> 1767602286 -0500	commit (initial): Initial commit
+650fe9a7a24eba7e93049eba9a72a2cc947f5cc3 10c16834e02211aa4de237e3b81cc91e33945f7b ram <ram.h.devs@gmail.com> 1767603694 -0500	commit: feat: user authentication
+10c16834e02211aa4de237e3b81cc91e33945f7b ce17fd78df51962c07e06fb05a669579a4055259 ram <ram.h.devs@gmail.com> 1767605386 -0500	commit: feat: added game logic
+ce17fd78df51962c07e06fb05a669579a4055259 c07fd18de7bd91c26c55ea731d5db901601a7510 ram <ram.h.devs@gmail.com> 1767605450 -0500	commit: saved the psql database into a dump file
+c07fd18de7bd91c26c55ea731d5db901601a7510 dc260ef011326ef29f13815dca1a5cccc05b948f ram <ram.h.devs@gmail.com> 1767605552 -0500	commit: feat: Final Commit, Goodbye friend :)
+dc260ef011326ef29f13815dca1a5cccc05b948f ce17fd78df51962c07e06fb05a669579a4055259 ram <ram.h.devs@gmail.com> 1767605705 -0500	rebase -i (start): checkout HEAD~2
+ce17fd78df51962c07e06fb05a669579a4055259 c07fd18de7bd91c26c55ea731d5db901601a7510 ram <ram.h.devs@gmail.com> 1767605705 -0500	rebase -i: fast-forward
+c07fd18de7bd91c26c55ea731d5db901601a7510 e4c1212a541531cad5902f8c05744b522ae8227d ram <ram.h.devs@gmail.com> 1767605705 -0500	rebase -i (reword): feat: saved the psql database into a dump file
+e4c1212a541531cad5902f8c05744b522ae8227d fb5d6a0ede6d0af7086f57a42ab5948c863feda7 ram <ram.h.devs@gmail.com> 1767605711 -0500	rebase -i (pick): feat: Final Commit, Goodbye friend :)
+fb5d6a0ede6d0af7086f57a42ab5948c863feda7 fb5d6a0ede6d0af7086f57a42ab5948c863feda7 ram <ram.h.devs@gmail.com> 1767605711 -0500	rebase -i (finish): returning to refs/heads/master
+fb5d6a0ede6d0af7086f57a42ab5948c863feda7 0000000000000000000000000000000000000000 ram <ram.h.devs@gmail.com> 1767605734 -0500	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 fb5d6a0ede6d0af7086f57a42ab5948c863feda7 ram <ram.h.devs@gmail.com> 1767605734 -0500	Branch: renamed refs/heads/master to refs/heads/main

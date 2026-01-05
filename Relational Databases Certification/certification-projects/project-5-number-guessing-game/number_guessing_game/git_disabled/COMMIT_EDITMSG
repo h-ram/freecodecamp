@@ -1,0 +1,17 @@
+feat: saved the psql database into a dump file
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Mon Jan 5 04:30:50 2026 -0500
+#
+# interactive rebase in progress; onto ce17fd7
+# Last command done (1 command done):
+#    reword c07fd18 saved the psql database into a dump file
+# Next command to do (1 remaining command):
+#    pick dc260ef feat: Final Commit, Goodbye friend :)
+# You are currently editing a commit while rebasing branch 'master' on 'ce17fd7'.
+#
+# Changes to be committed:
+#	new file:   number_guess.sql
+#
