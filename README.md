@@ -4,7 +4,7 @@ This repository tracks my progress through the [freeCodeCamp](https://www.freeco
 
 ## 📜 Certifications
 
-- [ ] **Python Certification**
+- [x] **Python Certification**
 - [ ] **JavaScript Certification**
 - [ ] **Relational Databases Certification**
 - [ ] **Responsive Web Design Certification**
