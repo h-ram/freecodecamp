@@ -4,7 +4,7 @@ This repository tracks my progress through the [freeCodeCamp](https://www.freeco
 
 ## 📜 Certifications
 
-- [x] **Python Certification**
+- [x] [**Python Certification**](https://www.freecodecamp.org/certification/ram-h/python-v9)
 - [ ] **JavaScript Certification**
 - [ ] **Relational Databases Certification**
 - [ ] **Responsive Web Design Certification**
