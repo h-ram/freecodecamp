@@ -1,0 +1,77 @@
+
+body{
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  font-family: Arial;
+  background-color:aliceblue;
+}
+#title{
+  text-align:center;
+}
+
+.todo-list{
+  background-color:tomato;
+  width:fit-content;
+  min-width:300px;
+  margin:auto;
+  margin-top:60px;
+  padding: 12px 40px;
+  border:2px solid black;
+  border-radius: 4px;
+}
+
+.item{
+  background-color:white;
+  list-style: none;
+  margin-bottom: 20px;
+  padding:8px 16px;
+  border: 1px solid black;
+}
+.item input{
+  width:20px;
+  height:20px;
+  border: 2px solid black;
+  cursor:pointer;
+}
+.item label{
+  font-weight: bold;
+  font-size: 20px;
+  cursor:pointer;
+}
+.sub-item{
+  list-style:square inside;
+}
+.sub-item li{
+  background-color:olive;
+  margin-top: 4px;
+  padding:4px 12px;
+  width:fit-content;
+  border:1px solid black;
+  border-radius: 2px;
+}
+a{
+  text-decoration:none;
+}
+a:link{
+  color:tomato;
+}
+
+a:visited{
+  color:indigo;
+}
+
+a:hover{
+  color:aqua;
+}
+
+a:focus{
+  color:maroon;
+  outline: 1px solid black;
+}
+
+a:active{
+  color:darkcyan;
+}
