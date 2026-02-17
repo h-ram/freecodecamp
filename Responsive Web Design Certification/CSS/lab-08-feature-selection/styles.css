@@ -1,0 +1,83 @@
+:root {
+  --color-bg: #0f172a;
+  --color-surface: #1e293b;
+
+  --color-primary: #3b82f6;
+  --color-accent: #22d3ee;
+
+  --color-text: #e2e8f0;
+  --color-text-muted: #94a3b8;
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color:var(--color-bg);
+  color:var(--color-text);
+  font-family:sans-serif;
+}
+
+h1{
+  text-align:center;
+  padding:20px;
+  background-color:black;
+  margin-bottom:28px;
+}
+
+.feature-card-container{
+  width:600px;
+  margin:0 auto;
+  background-color:black;
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:20px;
+  padding:28px 20px;
+  border-radius:8px;
+  border:2px solid tomato;
+}
+
+label{
+  width:40%;
+  height:80px;
+  background-color:var(--color-surface);
+  padding:12px;
+  border-radius:4px;
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  justify-content:center;
+  text-align:center;
+  position:relative;
+  cursor:pointer;
+  transition:all 0.1s;
+}
+
+label:hover{
+  box-shadow:0px 0px 10px tomato;
+}
+input[type="checkbox"]{
+  appearance: none;
+  width:20px;
+  height:20px;
+  background-color:white;
+  border:1px solid tomato;
+  cursor:pointer;
+  position:absolute;
+  right:10px;
+  top: 10px;
+}
+input[type="checkbox"]:checked::after{
+  content:"✓";
+  display:block;
+  font-weight:bold;
+  text-align:center;
+}
+
+input[type="checkbox"]:checked{
+  background-color:tomato;
+  border:1px solid white;
+}
