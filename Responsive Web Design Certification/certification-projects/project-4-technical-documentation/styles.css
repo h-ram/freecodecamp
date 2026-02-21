@@ -1,0 +1,109 @@
+:root{
+  --color-bg: seashell;
+  --color-text: black;
+}
+
+*, ::after, ::before{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  /* outline:1px solid green; */
+}
+
+body{
+  background-color:var(--color-bg);
+  color:var(--color-text);
+  font-family:serif;
+}
+
+.h-ram-header,
+.h-ram-footer{
+  background-color:#1c1c1c;
+  color:linen;
+  width:100vw;
+  padding:20px;
+  font-size:clamp(1em,1.4vw,2em);
+  font-family: "SF Mono", "Monaco", "Inconsolata", "Ubuntu Mono", "Consolas", "Courier New", monospace;
+}
+
+.h-ram-header{
+  font-size:clamp(1em,1.5vw,2em);
+}
+.h-ram-footer{
+  position:fixed;
+  bottom:0;
+  text-align:center;
+}
+.creation-date,
+.project-name{
+  color:GreenYellow ;
+  font-weight:bold;
+}
+
+#main-doc{
+  display:flex;
+}
+
+#main-doc #navbar{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  width:20vw;
+}
+
+#main-doc #navbar header{
+  font-size:clamp(2rem, 3vw, 4rem);
+  font-weight:bold;
+  text-align:center;
+  border-bottom:4px solid black;
+  padding:8px 0;
+}
+#main-doc #navbar a{
+  font-size:clamp(1rem, 1.4vw, 2rem);
+  padding:8px 16px;
+  text-decoration:none;
+  border-bottom:2px solid black;
+  color:black;
+}
+#main-doc #navbar a:hover{
+  background-color:#1c1c1c;
+  color:linen;
+}
+
+#main-doc .main-container{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  width:80vw;
+  margin-bottom:400px;
+}
+.main-section{
+  border:2px solid black;
+  padding:8px 28px;
+}
+.main-section header{
+  font-size:clamp(1rem, 2vw, 3rem);
+  font-weight:bold;
+}
+
+ul, ol{
+  list-style-position:inside;
+}
+
+code{
+  display:block;
+  background-color:#1c1c1c;
+  color:linen;
+  padding:8px 12px;
+  margin:2px;
+  border:2px solid black;
+}
+@media (max-width: 1024px){
+
+  #main-doc #navbar{
+    display:none;
+  }
+    #main-doc .main-container{
+    width:100vw;
+  }
+}
