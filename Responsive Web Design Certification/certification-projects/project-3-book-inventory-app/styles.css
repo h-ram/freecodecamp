@@ -1,0 +1,134 @@
+:root{
+  --color-bg: seashell;
+  --color-text: black;
+}
+
+*, ::after, ::before{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  /* outline:1px solid green; */
+}
+
+body{
+  background-color:var(--color-bg);
+  color:var(--color-text);
+  font-family:serif;
+}
+
+h1{
+  text-align:center;
+  margin:20px;
+}
+table{
+  margin:0 auto;
+  width:clamp(600px, 60vw, 900px);
+  max-width:900px;
+  min-width:600px;
+  border-collapse:collapse;
+  border:2px solid black;
+}
+thead{
+  height:3vw;
+}
+td,th{
+  text-align:center;
+}
+.read,
+.to-read,
+.in-progress{
+  background: linear-gradient(white, gray);
+}
+
+span{
+  display:inline-block;
+}
+
+tr[class="read"]{
+  background: linear-gradient(forestgreen,lightgreen);
+}
+tr[class="to-read"]{
+  background: linear-gradient(lightcoral,lightpink);
+}
+tr[class="in-progress"]{
+  background: linear-gradient(gold,goldenrod);
+}
+
+span[class="status"]{
+  border-radius:4px;
+  font-size:0.9em;
+  overflow:hidden;
+  font-weight:bold;
+}
+
+tr[class="read"] span[class="status"]{
+  border:2px solid blue;
+  background: linear-gradient(white);
+}
+
+tr[class="to-read"] span[class="status"]{
+  border:2px solid green;
+  background: linear-gradient(white);
+}
+
+tr[class="in-progress"] span[class="status"]{
+  border:2px solid red;
+  background: linear-gradient(white);
+}
+
+span[class="status"],
+span[class^="rate"]{
+  height:2rem;
+  width:6rem;
+  padding:8px;
+}
+
+span[class^="rate"] > span{
+  border:2px solid black;
+  border-radius:12px;
+  margin:2px;
+  height:16px;
+  width:16px;
+  background-color:gray;
+}
+
+span[class~="one"] :first-child{
+  background: linear-gradient(gold);
+}
+
+span[class~="two"] :nth-child(1),
+span[class~="two"] :nth-child(2)
+{
+    background: linear-gradient(gold);
+}
+
+span[class~="three"] span{
+  background: linear-gradient(gold);
+}
+
+
+
+.h-ram-header,
+.h-ram-footer{
+  background-color:#1c1c1c;
+  color:linen;
+  width:100vw;
+  padding:20px;
+  /* height:10vh; */
+  font-size:clamp(1em,1.4vw,2em);
+  font-family: "SF Mono", "Monaco", "Inconsolata", "Ubuntu Mono", "Consolas", "Courier New", monospace;
+}
+
+.h-ram-header{
+  font-size:clamp(1em,1.5vw,2em);
+}
+.h-ram-footer{
+  position:fixed;
+  bottom:0;
+  text-align:center;
+}
+.creation-date,
+.project-name{
+  color:GreenYellow ;
+  font-weight:bold;
+}
