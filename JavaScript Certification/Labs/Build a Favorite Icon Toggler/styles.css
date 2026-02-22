@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    georgia,
+    Times new Roman;
+  background-color: seashell;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  margin-bottom: 20px;
+}
+ul {
+  list-style: none;
+  width: clamp(200px, 40vw, 300px);
+}
+ul li {
+  border-bottom: 1px solid black;
+  padding: 8px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+}
+
+ul li button {
+  background: none;
+  border: none;
+  font-weight: bold;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.filled {
+  color: red;
+}
