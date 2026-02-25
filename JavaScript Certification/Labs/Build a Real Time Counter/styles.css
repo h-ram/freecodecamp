@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1c1c1c;
+  color: linen;
+}
+#title {
+  background-color: tomato;
+  color: #1c1c1c;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-size: clamp(1.4rem, 2.6vw, 2rem);
+}
+#text-input {
+  resize: none;
+  width: 35vw;
+  min-width: 300px;
+  max-width: 500px;
+  height: 25vh;
+  min-height: 100px;
+  max-height: 300px;
+  padding: 8px 12px;
+  font-size: 1.2rem;
+  background-color: linen;
+}
+#text-input:focus {
+  outline: 2px solid tomato;
+}
+#char-count {
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+.limit-exceeded {
+  color: red;
+}
