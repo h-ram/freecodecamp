@@ -1,0 +1,59 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body {
+  background-color:#1c1c1c;
+  color:#1c1c1c;
+  font-family: "Fira Code", "JetBrains Mono", "Consolas", "Menlo", "Courier New", monospace;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+}
+.container{
+  border:3px solid darkgreen;
+  padding:12px;
+  border-radius:2px;
+  background-color:white;
+  width:28vw;
+}
+
+#title{
+  text-align:center;
+  font-size:1.8rem;
+  margin-bottom:12px;
+}
+#input-container{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:12px;
+  margin-top:12px;
+}
+#text-input{
+  width:80%;
+  padding:8px 12px;
+}
+#check-btn{
+  cursor:pointer;
+  width:18%;
+  font-weight:bold;
+}
+#result{
+  text-align:center;
+  font-size:1.4rem;
+}
+
+.explanation{
+  width:28vw;
+  padding:12px 16px;
+  border-radius:4px;
+  background-color:darkgreen;
+  margin:16px;
+  font-size:1.1rem;
+  color:white;
+  font-weight:bold;
+}
