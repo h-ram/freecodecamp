@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-bg: #111827;
+  --color-card: #1f2937;
+  --color-text: #f3f4f6;
+  --color-accent: #ea580c;
+  --font-main: "Inter", system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-bg);
+  font-family: var(--font-main);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  color: var(--color-text);
+}
+
+.weather-container {
+  background-color: var(--color-card);
+  padding: 2rem;
+  border-radius: 2px;
+  box-shadow:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+select {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #374151;
+  background-color: #374151;
+  color: #f3f4f6;
+  border-radius: 2px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: var(--color-accent);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #c2410c;
+}
+
+img#weather-icon {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+#location {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+#weather-main {
+  font-size: 1.2rem;
+  color: #9ca3af;
+  margin: 0 0 20px 0;
+  text-transform: capitalize;
+}
+
+#main-temperature {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0 0 10px 0;
+  color: var(--color-accent);
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  width: 100%;
+  margin-top: 20px;
+  border-top: 1px solid #374151;
+  padding-top: 20px;
+}
+
+.details p {
+  margin: 0;
+  background: #374151;
+  padding: 10px;
+  border-radius: 2px;
+  font-size: 0.9rem;
+}
+
+.details p::before {
+  content: attr(data-label) ": ";
+  font-weight: 600;
+  color: #9ca3af;
+  display: block;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
