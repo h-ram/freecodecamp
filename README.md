@@ -9,5 +9,5 @@ This repository tracks my progress through the [freeCodeCamp](https://www.freeco
 - [x] [**Relational Databases Certification**](https://www.freecodecamp.org/certification/ram-h/relational-databases-v9)
 - [x] [**Responsive Web Design Certification**](https://www.freecodecamp.org/certification/ram-h/responsive-web-design-v9)
 - [ ] **Front End Development Libraries Certification**
-- [ ] **Back End Development and APIs Certification**
+- [x] [**Back End Development and APIs Certification**](https://www.freecodecamp.org/certification/ram-h/back-end-development-and-apis-v9)
 - [ ] **Certified Full Stack Developer**
