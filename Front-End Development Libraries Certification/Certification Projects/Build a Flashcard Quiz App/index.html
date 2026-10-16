@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Index Card Quiz</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="desk">
+    <h1>Index Card Quiz</h1>
+    <p class="hint">Click the card to flip it.</p>
+
+    <div class="scene">
+      <div id="flashcard" role="button" tabindex="0" aria-label="Flashcard. Press to flip.">
+        <div class="face front">
+          <p id="card-front-text"></p>
+        </div>
+        <div class="face back">
+          <p id="card-back-text"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button type="button" id="prev-btn">Previous</button>
+      <span id="counter" aria-live="polite"></span>
+      <button type="button" id="next-btn">Next</button>
+      <button type="button" id="delete-btn" class="danger">Delete card</button>
+    </div>
+
+    <form id="entry-form" novalidate>
+      <h2>Add a new card</h2>
+      <label for="front-text">Question</label>
+      <textarea id="front-text" rows="2" placeholder="What does the question say?"></textarea>
+
+      <label for="back-text">Answer</label>
+      <textarea id="back-text" rows="2" placeholder="What is the answer?"></textarea>
+
+      <p id="form-message" role="alert"></p>
+      <button type="submit">Add card</button>
+    </form>
+  </main>
+
+  <script src="index.ts"></script>
+</body>
+</html>
